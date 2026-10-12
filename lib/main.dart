@@ -43,7 +43,29 @@ class _HomePageState extends State<HomePage> {
           children: [
             ListView(
               children: [
-                Card(
+                Padding(
+        padding: EdgeInsetsGeometry.only(left: 30, right: 30),
+        child: Card(
+          elevation: 30,
+          child: ListTile(
+            leading: Icon(
+              Icons.person
+            ),
+            title: Text("Ari"),
+            subtitle: Text("whops"),
+            trailing: Text(
+              "50",
+              style: TextStyle(
+                color: Colors.green,
+              ),
+            ),
+          ),
+        ),
+      ),
+             
+             Padding(
+        padding: EdgeInsetsGeometry.only(left: 30, right: 30),
+                child: Card(
               elevation: 5,
               child:     ListTile(
               leading: Icon(
@@ -58,7 +80,11 @@ class _HomePageState extends State<HomePage> {
                 ), ),
             ),
             ),
-            Card(
+             ),
+
+             Padding(
+              padding: EdgeInsetsGeometry.only(left: 30, right: 30),
+            child: Card(
               elevation: 5,
               child:     ListTile(
               leading: Icon(
@@ -73,31 +99,18 @@ class _HomePageState extends State<HomePage> {
                 ), ),
             ),
             ),
+            ),
 
-              Card(
+               Padding(
+              padding: EdgeInsetsGeometry.only(left: 30, right: 30),
+              child: Card(
               elevation: 5,
               child:     ListTile(
               leading: Icon(
                   Icons.person
               ),
-              title: Text("Irham"),
-              subtitle:  Text("fiks ini kembaran martin"),
-              trailing: Text(
-                "22", 
-              style: TextStyle(
-                color: Colors.green
-                ), ),
-            ),
-            ),
-
-              Card(
-              elevation: 5,
-              child:     ListTile(
-              leading: Icon(
-                  Icons.person
-              ),
-              title: Text("Eky"),
-              subtitle:  Text("ini kembaran juhoon ga sih?"),
+              title: Text("nisa"),
+              subtitle:  Text("whops"),
               trailing: Text(
                 "17", 
               style: TextStyle(
@@ -105,188 +118,307 @@ class _HomePageState extends State<HomePage> {
                 ), ),
             ),
             ),
+            ),
 
-              Card(
+
+            Padding(
+              padding: EdgeInsetsGeometry.only(left: 30, right: 30),
+              child: Card(
               elevation: 5,
               child:     ListTile(
               leading: Icon(
                   Icons.person
               ),
-              title: Text("Raqiila"),
-              subtitle:  Text("ini bukannya kembaran james ya?"),
+              title: Text("dimas"),
+              subtitle:  Text("p"),
               trailing: Text(
-                "10", 
+                "17", 
               style: TextStyle(
                 color: Colors.green
                 ), ),
             ),
             ),
-
-              Card(
+            ),
+            
+             Padding(
+              padding: EdgeInsetsGeometry.only(left: 30, right: 30),
+              child: Card(
               elevation: 5,
               child:     ListTile(
               leading: Icon(
                   Icons.person
               ),
-              title: Text("Nesya"),
-              subtitle:  Text("kembaran jaehyun"),
+              title: Text("raqilla"),
+              subtitle:  Text("wow"),
               trailing: Text(
-                "7", 
+                "17", 
               style: TextStyle(
                 color: Colors.green
                 ), ),
             ),
             ),
-
-              Card(
+            ),
+ Padding(
+              padding: EdgeInsetsGeometry.only(left: 30, right: 30),
+              child: Card(
               elevation: 5,
               child:     ListTile(
               leading: Icon(
                   Icons.person
               ),
-              title: Text("Zelita"),
-              subtitle:  Text("Mirip keluarga jennie"),
+              title: Text("kareem"),
+              subtitle:  Text("woik"),
               trailing: Text(
-                "14", 
+                "17", 
               style: TextStyle(
                 color: Colors.green
                 ), ),
             ),
             ),
+            ),
 
-              Card(
+             Padding(
+              padding: EdgeInsetsGeometry.only(left: 30, right: 30),
+              child: Card(
               elevation: 5,
               child:     ListTile(
               leading: Icon(
                   Icons.person
               ),
-              title: Text("Levina"),
-              subtitle:  Text("temennya sunghoon ini"),
+              title: Text("irfan"),
+              subtitle:  Text("wopss"),
               trailing: Text(
-                "2", 
+                "17", 
               style: TextStyle(
                 color: Colors.green
                 ), ),
             ),
             ),
+            ),
 
-            Card(
+
+              Padding(
+              padding: EdgeInsetsGeometry.only(left: 30, right: 30),
+              child: Card(
               elevation: 5,
               child:     ListTile(
               leading: Icon(
                   Icons.person
               ),
-              title: Text("Afifa"),
-              subtitle:  Text("Omadem"),
+              title: Text("bagas"),
+              subtitle:  Text("?"),
               trailing: Text(
-                "11", 
+                "17", 
               style: TextStyle(
                 color: Colors.green
                 ), ),
             ),
             ),
+            ),
 
-            Card(
+
+               Padding(
+              padding: EdgeInsetsGeometry.only(left: 30, right: 30),
+              child: Card(
               elevation: 5,
               child:     ListTile(
               leading: Icon(
                   Icons.person
               ),
-              title: Text("Nisa"),
-              subtitle:  Text("Titip salam nanti di SM buat Carmen"),
+              title: Text("Ahmad"),
+              subtitle:  Text("good"),
               trailing: Text(
-                "8", 
+                "17", 
               style: TextStyle(
                 color: Colors.green
                 ), ),
             ),
             ),
+            ),
 
-            Card(
+
+               Padding(
+              padding: EdgeInsetsGeometry.only(left: 30, right: 30),
+              child: Card(
               elevation: 5,
               child:     ListTile(
               leading: Icon(
                   Icons.person
               ),
-              title: Text("De'ar"),
-              subtitle:  Text("Calon Idol Kpop ini"),
+              title: Text("faisal"),
+              subtitle:  Text("nice"),
               trailing: Text(
-                "4", 
+                "17", 
               style: TextStyle(
                 color: Colors.green
                 ), ),
             ),
             ),
+            ),
 
-            Card(
+
+             Padding(
+              padding: EdgeInsetsGeometry.only(left: 30, right: 30),
+              child: Card(
               elevation: 5,
               child:     ListTile(
               leading: Icon(
                   Icons.person
               ),
-              title: Text("Fadlan"),
-              subtitle:  Text("fiks orang have"),
+              title: Text("rivaldi"),
+              subtitle:  Text("brrrrr"),
               trailing: Text(
-                "1", 
+                "17", 
               style: TextStyle(
                 color: Colors.green
                 ), ),
             ),
             ),
+            ),
 
-            Card(
+             Padding(
+              padding: EdgeInsetsGeometry.only(left: 30, right: 30),
+              child: Card(
               elevation: 5,
               child:     ListTile(
               leading: Icon(
                   Icons.person
               ),
-              title: Text("Bagas"),
-              subtitle:  Text("calon CEO"),
+              title: Text("azzam"),
+              subtitle:  Text("AI ini"),
               trailing: Text(
-                "9", 
+                "17", 
               style: TextStyle(
                 color: Colors.green
                 ), ),
             ),
             ),
+            ),
 
-            Card(
+ Padding(
+              padding: EdgeInsetsGeometry.only(left: 30, right: 30),
+              child: Card(
               elevation: 5,
               child:     ListTile(
               leading: Icon(
                   Icons.person
               ),
-              title: Text("Najib"),
-              subtitle:  Text("Bhapp"),
+              title: Text("marvel"),
+              subtitle:  Text("wopes"),
               trailing: Text(
-                "3", 
+                "17", 
               style: TextStyle(
                 color: Colors.green
                 ), ),
             ),
             ),
+            ),
 
-            Card(
+
+ Padding(
+              padding: EdgeInsetsGeometry.only(left: 30, right: 30),
+              child: Card(
               elevation: 5,
               child:     ListTile(
               leading: Icon(
                   Icons.person
               ),
-              title: Text("Kareem"),
-              subtitle:  Text("Takbirrrrrrr!"),
+              title: Text("fadlan"),
+              subtitle:  Text("oi"),
               trailing: Text(
-                "5", 
+                "17", 
               style: TextStyle(
                 color: Colors.green
                 ), ),
             ),
             ),
+            ),
+
+
+             Padding(
+              padding: EdgeInsetsGeometry.only(left: 30, right: 30),
+              child: Card(
+              elevation: 5,
+              child:     ListTile(
+              leading: Icon(
+                  Icons.person
+              ),
+              title: Text("Eky"),
+              subtitle:  Text("tugas nya apa"),
+              trailing: Text(
+                "17", 
+              style: TextStyle(
+                color: Colors.green
+                ), ),
+            ),
+            ),
+            ),
+
+             Padding(
+              padding: EdgeInsetsGeometry.only(left: 30, right: 30),
+              child: Card(
+              elevation: 5,
+              child:     ListTile(
+              leading: Icon(
+                  Icons.person
+              ),
+              title: Text("Dear"),
+              subtitle:  Text("bhapp"),
+              trailing: Text(
+                "17", 
+              style: TextStyle(
+                color: Colors.green
+                ), ),
+            ),
+            ),
+            ),
+
+             Padding(
+              padding: EdgeInsetsGeometry.only(left: 30, right: 30),
+              child: Card(
+              elevation: 5,
+              child:     ListTile(
+              leading: Icon(
+                  Icons.person
+              ),
+              title: Text("najib"),
+              subtitle:  Text("space"),
+              trailing: Text(
+                "17", 
+              style: TextStyle(
+                color: Colors.green
+                ), ),
+            ),
+            ),
+            ),
+
+             Padding(
+              padding: EdgeInsetsGeometry.only(left: 30, right: 30),
+              child: Card(
+              elevation: 5,
+              child:     ListTile(
+              leading: Icon(
+                  Icons.person
+              ),
+              title: Text("hifzhi"),
+              subtitle:  Text("cings"),
+              trailing: Text(
+                "17", 
+              style: TextStyle(
+                color: Colors.green
+                ), ),
+            ),
+            ),
+            ),
+
               ],
             ),
 
             Column(
               children: [
-                Card(
+            Padding(
+              padding: EdgeInsetsGeometry.only(left: 30, right: 30),
+                child: Card(
               elevation: 5,
               child:     ListTile(
               leading: Icon(
@@ -299,8 +431,11 @@ class _HomePageState extends State<HomePage> {
                       color: Colors.green,
                 ),
               ),),
+              ),
 
-              Card(
+            Padding(
+              padding: EdgeInsetsGeometry.only(left: 30, right: 30),
+              child: Card(
               elevation: 5,
               child:     ListTile(
               leading: Icon(
@@ -309,8 +444,11 @@ class _HomePageState extends State<HomePage> {
               title: Text("Keonho"),
               subtitle:  Text("Hari ini, 11.50"),
               ),),
+              ),
 
-              Card(
+            Padding(
+              padding: EdgeInsetsGeometry.only(left: 30, right: 30),
+              child: Card(
               elevation: 5,
               child:     ListTile(
               leading: Icon(
@@ -319,33 +457,43 @@ class _HomePageState extends State<HomePage> {
               title: Text("Martin"),
               subtitle:  Text("Kemarin, 08.50"),
               ),),
+              ),
               ]
             ),
-                Card(
-                  elevation: 30,
-                  child: ListTile(
-                    leading: Icon(
-                      Icons.person
-                    ),
-                    title: Text("Seonghyeon"),
-                    subtitle: Row(
-                      children: [
-                        Icon(
-                          Icons.call_received,
-                          color: Colors.green,
-                          size: 18,
-                        ),
-                        Text(" Hari ini, 12.34"),
-                      ],
-                    ),
-                    trailing: Icon(
-                      Icons.call,
-                      color: Colors.green,
-                    ),
-                  ),
-                ),
 
-          ]
+          
+//calss
+              ListView(
+                children: [
+              Padding(
+                padding: EdgeInsets.only(left: 30, right: 30),
+                  child: Card(
+                  elevation: 5,
+                  child: ListTile(
+                  leading: Icon(
+                  Icons.person,
+                ),
+                title: Text("Seonghyeon"),
+                subtitle: Row(
+                children: [
+                Icon(
+                    Icons.call_received,
+                    color: Colors.green,
+                    size: 18,
+                  ),
+                  Text(" Hari ini, 12.34"),
+                ],
+              ),
+                trailing: Icon(
+                Icons.call,
+                color: Colors.green,
+              ),
+              ),
+              ),
+              ),
+              ],
+              ),
+            ]
           ),
       ),
     );
